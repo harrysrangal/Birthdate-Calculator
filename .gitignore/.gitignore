@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a; int b;int c; int d; char e; int f; int g;int h; int i;int j;
+    
+    
+    cout<<"Choose a number between 2 and 20"<<'\n';
+    cin>>a;
+    b = 2*a;
+    c = 5+b;
+    d = c*50;
+    
+    cout<<"If your birthday is upcoming type 'Y' & if your birthday is gone type 'N'"<<'\n';
+    cin>>e;
+    if( e== 'Y')
+    { f = d+1766;
+        cout<<"Enter the year you were born"<<'\n';
+        cin>>g;
+        h=f-g;
+        
+
+    }
+    else
+    { f = d+1767;
+        cout<<"Enter the year you were born"<<'\n';
+        cin>>g;
+        h=f-g;
+        
+    }
+    i = a*100;
+    j = h-i;
+    cout<<"Your age is "<<j+1<<" years"<<'\n';
+    cout<<"The number choosen was "<<a<<'\n';
+    
+}
